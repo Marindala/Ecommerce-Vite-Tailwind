@@ -1,5 +1,12 @@
 # React + Vite
 
+npm create vite@latest -- --template react client
+npm install three @react-three/fiber @react-three/drei maath valtio react-color framer-motion
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
