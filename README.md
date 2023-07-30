@@ -1,9 +1,12 @@
-# React + Vite
+# React + Vite + Tailwind 
 
 npm create vite@latest -- --template react client
 npm install three @react-three/fiber @react-three/drei maath valtio react-color framer-motion
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
+![image](https://github.com/Marindala/Ecommerce-Vite-Tailwind/assets/95050756/e2782e80-d0e8-41f1-82fd-d34875cd267a)
+
 
 
 
