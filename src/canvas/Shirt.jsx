@@ -10,7 +10,7 @@ const Shirt = () => {
   const { nodes, materials } = useGLTF("/shirt_baked.glb");
 
   const logoTexture = useTexture(snap.logoDecal);
-  console.log(logoTexture);
+  //console.log(logoTexture);
   const fullTexture = useTexture(snap.fullDecal);
 
   useFrame((state, delta) =>
@@ -18,6 +18,7 @@ const Shirt = () => {
   );
 
   const stateString = JSON.stringify(snap);
+  //console.log(stateString)
 
   return (
     <group key={stateString}>
