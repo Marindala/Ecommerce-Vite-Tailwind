@@ -34,18 +34,18 @@ const Home = () => {
                 {...headContentAnimation}
                 className="flex flex-col gap-5"
               >
-                <p className="max-w-md font-normal text-gray-600 text-base">
+                <p className="max-w-md font-normal text-gray-400 text-base">
                   Crea tu camiseta única y exclusiva con nuestra nueva
                   herramienta de personalización en 3D.{" "}
                   <strong>Da rienda suelta a tu imaginación</strong> y define tu
-                  propio estilo
+                  propio estilo.
                 </p>
 
                 <CustomButton
                   type="filled"
                   title="Personalizarlo"
                   handleClick={() => (state.intro = false)}
-                  customStyles="w-fit px-4 py-2.5 font-bold text-sm"
+                  customStyles="w-fit px-4 py-2.5 font-bold text-sm "
                 />
               </motion.div>
             </motion.div>

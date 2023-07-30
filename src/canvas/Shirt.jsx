@@ -96,3 +96,11 @@ En esta línea, estás importando algo llamado `easing` desde el módulo "maath"
 - `useTexture`: `useTexture` es otro gancho que se utiliza para cargar y gestionar texturas en Three.js. Te permite cargar imágenes y aplicarlas como texturas en tus materiales de forma eficiente.
 
 En resumen, las importaciones que mencionaste son esenciales para trabajar con gráficos 3D en una aplicación React utilizando las librerías `@react-three/fiber` y `@react-three/drei`. Estas librerías proporcionan herramientas poderosas para crear y animar escenas 3D de manera sencilla y eficiente. */
+
+/* Diseñar la remera femenina en 3D: Utiliza un software de modelado 3D, como Blender o Maya, para crear el modelo 3D de la remera femenina. Asegúrate de que el modelo esté texturizado y configurado con los materiales adecuados para el diseño que desees.
+
+Exportar el modelo a formato GLB: Una vez que hayas terminado el diseño de la remera femenina, exporta el modelo a formato GLB. La exportación a GLB debe incluir tanto la geometría como los materiales del modelo.
+
+Subir el archivo GLB a la carpeta "public": Una vez que tengas el archivo GLB de la remera femenina, colócalo en la carpeta "public" de tu proyecto React. Puedes hacer esto manualmente o utilizando un administrador de archivos en tu entorno de desarrollo.
+
+Modificar el componente "Shirt": Con el nuevo archivo GLB en la carpeta "public", puedes modificar el componente Shirt para cargar el nuevo archivo GLB en lugar del anterior. Asegúrate de ajustar la ruta en la función useGLTF para que apunte al nuevo archivo GLB de la remera femenina. */
