@@ -22,7 +22,7 @@ const Home = () => {
             <img
               src="./logo.png"
               alt="logo"
-              className="w-8 h-8 object-contain"
+              className="w-16 h-16 object-contain"
             />
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
